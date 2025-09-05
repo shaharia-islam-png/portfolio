@@ -1,4 +1,4 @@
-Hello, This is my personal portfolio website built with HTML and CSS. The website showcases my personal information,skills and contact process. it serves as a platform to connect with me.
+Hello, I am Shaharia Islam.This is my personal portfolio website built with HTML and CSS. The website showcases my personal information,skills and contact process. it serves as a platform to connect with me.
 
 
 ### FEATURES
