@@ -71,6 +71,7 @@ nav ul li a:hover{
    }
    .list3.active{
     box-sizing: border-box;
+    
    }
 .content{
     display: flex;
