@@ -79,7 +79,7 @@ nav ul li a:hover{
     align-items: center;
     gap: 50px;
     padding: 20px;
-    margin: 20px;
+    margin: 18px;
     animation: fadeSlideIn 1s ease forwards;
 }
 @keyframes fadefadeSlideIn {
@@ -87,16 +87,48 @@ nav ul li a:hover{
     to{opacity: 1; transform: translateY(0);}
 }
 .image{
-    margin-top: 60px;
+    margin-top: 25px;
     border-radius: 20px;
 }
+
 .image:hover{
      animation: jump 0.3s ease forwards;
 }
-    @keyframes jump {
+    @keyframes  jump{
   from { transform: translateY(0) scale(1); }
   to   { transform: translateY(-200px) scale(1.05); }
+    }
+.social-icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
+.scl1:hover {
+     color: #000;
+     }      
+.scl2:hover {
+     color: #0077B5; 
+    }   
+.scl3:hover { 
+    color: #1877F2; 
+}   
+.scl4:hover {
+     color: #E4405F;
+    }
+.social-icons svg {
+     color: rgb(121, 116, 116);
+  transition: all 0.3s ease;
+  cursor: pointer; 
+}
+.social-icons svg:hover {
+   animation: jump 0.3s ease forwards;
+}
+@keyframes jump {
+  from { transform: translateX(0) scale(1); }
+  to   { transform: translatez(-200px) scale(1.05); }
+}
+
+    
 
 .text1{
     color: rgb(85, 148, 199);
